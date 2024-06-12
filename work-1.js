@@ -43,7 +43,7 @@ class BasicData {
 }
 
 const component = () => {
-  let obj = new BasicData("공욱재", 26, "미남");
+  let obj = new BasicData("한사람, 두사람, 세사람, 네사람", 26, "미남");
 
   const decision = () => {
     if (obj instanceof BasicData) {
